@@ -1,0 +1,16 @@
+build/bin
+build/windows/installer/tmp/
+node_modules
+frontend/dist
+frontend/package.json.md5
+
+# Generated / runtime
+*.exe
+*.db
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log

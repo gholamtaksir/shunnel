@@ -1,0 +1,118 @@
+{
+  "app": {
+    "name": "Shunnel",
+    "tagline": "SSH tunnel made simple"
+  },
+  "nav": {
+    "connection": "Connection",
+    "servers": "Servers",
+    "proxy": "Proxy",
+    "tun": "TUN",
+    "logs": "Logs",
+    "settings": "Settings"
+  },
+  "connection": {
+    "title": "Connection",
+    "server": "Server",
+    "options": "Options",
+    "modeProxy": "Proxy",
+    "modeTun": "Proxy + Tunnel",
+    "modeProxyDesc": "Local SOCKS / HTTP proxy",
+    "modeTunDesc": "Route all traffic via SSH"
+  },
+  "logs": {
+    "title": "Logs",
+    "clear": "Clear",
+    "empty": "No log entries yet."
+  },
+  "common": {
+    "connect": "Connect",
+    "disconnect": "Disconnect",
+    "connected": "Connected",
+    "disconnected": "Disconnected",
+    "connecting": "Connecting…",
+    "save": "Save",
+    "cancel": "Cancel",
+    "add": "Add",
+    "edit": "Edit",
+    "delete": "Delete",
+    "enabled": "Enabled",
+    "disabled": "Disabled"
+  },
+  "quit": {
+    "title": "Close Shunnel?",
+    "message": "Do you want to quit, or keep Shunnel running in the tray?",
+    "minimize": "Minimize to tray",
+    "quit": "Quit"
+  },
+  "status": {
+    "title": "Status",
+    "notConnected": "Not connected"
+  },
+  "servers": {
+    "title": "SSH Servers",
+    "empty": "No servers yet. Add your first SSH server.",
+    "addServer": "Add server",
+    "name": "Name",
+    "host": "Host",
+    "port": "Port",
+    "user": "User",
+    "auth": "Authentication",
+    "password": "Password",
+    "privateKey": "Private key",
+    "passphrase": "Passphrase (optional)",
+    "ping": "Ping",
+    "pingAll": "Ping all",
+    "auto": "Auto (failover)",
+    "autoDesc": "Use the fastest server and switch automatically if it drops"
+  },
+  "proxy": {
+    "title": "Local proxy",
+    "protocol": "Protocol",
+    "mixed": "Mixed (SOCKS + HTTP)",
+    "socks": "SOCKS5",
+    "http": "HTTP",
+    "bind": "Listen on",
+    "bindLocal": "This computer only (127.0.0.1)",
+    "bindLan": "Local network (LAN)",
+    "bindAll": "All interfaces (0.0.0.0)",
+    "port": "Port",
+    "auth": "Require username & password",
+    "username": "Username",
+    "password": "Password",
+    "setSystemProxy": "Set as system proxy",
+    "socksNote": "System proxy is only available for Mixed or HTTP.",
+    "bindAllWarning": "The proxy will be reachable by anyone on your network. Enable authentication.",
+    "applyHint": "Changes apply on next connect"
+  },
+  "tun": {
+    "title": "System tunnel (TUN)",
+    "enable": "Enable system-wide tunnel",
+    "mode": "Mode",
+    "modeAll": "Whole system",
+    "modeWhitelist": "Only what I list (tunnel these)",
+    "modeBlacklist": "Everything except what I list",
+    "cidrs": "IP ranges (CIDR)",
+    "apps": "Applications",
+    "domains": "Domains",
+    "addCidr": "Add CIDR",
+    "addApp": "Add app",
+    "addDomain": "Add domain",
+    "pickApp": "Pick from running",
+    "pickAppTitle": "Running applications",
+    "search": "Search…",
+    "adminNote": "TUN mode requires administrator privileges.",
+    "restartAdmin": "Restart as administrator",
+    "dns": "DNS",
+    "dnsCustomOption": "Custom"
+  },
+  "settings": {
+    "title": "Settings",
+    "language": "Language",
+    "theme": "Theme",
+    "dark": "Dark",
+    "light": "Light",
+    "autostart": "Start on system login",
+    "about": "About"
+  }
+}

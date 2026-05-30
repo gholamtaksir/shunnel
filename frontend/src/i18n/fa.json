@@ -1,0 +1,118 @@
+{
+  "app": {
+    "name": "شانل",
+    "tagline": "تانل SSH، ساده"
+  },
+  "nav": {
+    "connection": "اتصال",
+    "servers": "سرورها",
+    "proxy": "پروکسی",
+    "tun": "تانل سیستم",
+    "logs": "لاگ‌ها",
+    "settings": "تنظیمات"
+  },
+  "connection": {
+    "title": "اتصال",
+    "server": "سرور",
+    "options": "گزینه‌ها",
+    "modeProxy": "پروکسی",
+    "modeTun": "پروکسی + تانل",
+    "modeProxyDesc": "فقط پروکسی SOCKS / HTTP",
+    "modeTunDesc": "همه ترافیک از طریق SSH"
+  },
+  "logs": {
+    "title": "لاگ‌ها",
+    "clear": "پاک کردن",
+    "empty": "هنوز لاگی ثبت نشده."
+  },
+  "common": {
+    "connect": "اتصال",
+    "disconnect": "قطع اتصال",
+    "connected": "متصل",
+    "disconnected": "قطع",
+    "connecting": "در حال اتصال…",
+    "save": "ذخیره",
+    "cancel": "انصراف",
+    "add": "افزودن",
+    "edit": "ویرایش",
+    "delete": "حذف",
+    "enabled": "فعال",
+    "disabled": "غیرفعال"
+  },
+  "quit": {
+    "title": "بستن شانل؟",
+    "message": "می‌خوای کامل ببندی یا شانل توی tray بمونه؟",
+    "minimize": "بردن به tray",
+    "quit": "خروج کامل"
+  },
+  "status": {
+    "title": "وضعیت",
+    "notConnected": "متصل نیست"
+  },
+  "servers": {
+    "title": "سرورهای SSH",
+    "empty": "هنوز سروری اضافه نشده. اولین سرور SSH خود را اضافه کنید.",
+    "addServer": "افزودن سرور",
+    "name": "نام",
+    "host": "هاست",
+    "port": "پورت",
+    "user": "کاربر",
+    "auth": "احراز هویت",
+    "password": "رمز عبور",
+    "privateKey": "کلید خصوصی",
+    "passphrase": "Passphrase (اختیاری)",
+    "ping": "پینگ",
+    "pingAll": "پینگ همه",
+    "auto": "خودکار (failover)",
+    "autoDesc": "سریع‌ترین سرور را استفاده کن و اگر قطع شد خودکار جابه‌جا شو"
+  },
+  "proxy": {
+    "title": "پروکسی محلی",
+    "protocol": "پروتکل",
+    "mixed": "ترکیبی (SOCKS + HTTP)",
+    "socks": "SOCKS5",
+    "http": "HTTP",
+    "bind": "گوش دادن روی",
+    "bindLocal": "فقط این کامپیوتر (127.0.0.1)",
+    "bindLan": "شبکه‌ی محلی (LAN)",
+    "bindAll": "همه‌ی رابط‌ها (0.0.0.0)",
+    "port": "پورت",
+    "auth": "نیاز به نام کاربری و رمز",
+    "username": "نام کاربری",
+    "password": "رمز عبور",
+    "setSystemProxy": "تنظیم به‌عنوان پروکسی سیستم",
+    "socksNote": "پروکسی سیستم فقط برای حالت ترکیبی یا HTTP در دسترس است.",
+    "bindAllWarning": "پروکسی برای همه‌ی افراد شبکه قابل دسترس می‌شود. احراز هویت را فعال کنید.",
+    "applyHint": "تغییرات در اتصال بعدی اعمال می‌شود"
+  },
+  "tun": {
+    "title": "تانل سیستم (TUN)",
+    "enable": "فعال‌سازی تانل کل سیستم",
+    "mode": "حالت",
+    "modeAll": "کل سیستم",
+    "modeWhitelist": "فقط چیزهایی که می‌گم تانل شوند",
+    "modeBlacklist": "چیزهایی که می‌گم تانل نشوند",
+    "cidrs": "بازه‌های IP (CIDR)",
+    "apps": "برنامه‌ها",
+    "domains": "دامنه‌ها",
+    "addCidr": "افزودن CIDR",
+    "addApp": "افزودن برنامه",
+    "addDomain": "افزودن دامنه",
+    "pickApp": "از برنامه‌های باز",
+    "pickAppTitle": "برنامه‌های در حال اجرا",
+    "search": "جستجو…",
+    "adminNote": "حالت TUN به دسترسی Administrator نیاز دارد.",
+    "restartAdmin": "اجرای مجدد با دسترسی Administrator",
+    "dns": "DNS",
+    "dnsCustomOption": "سفارشی"
+  },
+  "settings": {
+    "title": "تنظیمات",
+    "language": "زبان",
+    "theme": "پوسته",
+    "dark": "تیره",
+    "light": "روشن",
+    "autostart": "اجرا هنگام ورود به سیستم",
+    "about": "درباره"
+  }
+}
